@@ -1,6 +1,7 @@
 import { model, Schema } from 'mongoose';
 
 const StravaSessionSchema = new Schema({
+  strava_id: String,
   access_token: String,
   refresh_token: String,
   token_type: String,
