@@ -1,0 +1,17 @@
+{
+  "name": "runupto-shared",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/jackall3n/runupto-shared",
+  "author": "Jack Allen <jackallensemail+git@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mongoose": "^5.5.34",
+    "@types/redis": "^2.8.14",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "mongoose": "^5.8.2",
+    "redis": "^2.8.0"
+  }
+}
