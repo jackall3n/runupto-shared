@@ -6,7 +6,9 @@ export default async function connect(url: string, user: string, password: strin
       user,
       password
     },
-    authSource
+    authSource,
+    useNewUrlParser: true,
+    useUnifiedTopology: true
   });
 
   console.log('connected');
