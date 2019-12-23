@@ -5,6 +5,9 @@
   "repository": "https://github.com/jackall3n/runupto-shared",
   "author": "Jack Allen <jackallensemail+git@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build" : "tsc"
+  },
   "devDependencies": {
     "@types/mongoose": "^5.5.34",
     "@types/redis": "^2.8.14",

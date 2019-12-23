@@ -4,8 +4,7 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "bin",
-    "rootDir": "src",
-    "baseUrl": "src"
+    "rootDir": "src"
   },
   "compileOnSave": true
 }
