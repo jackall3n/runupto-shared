@@ -48,7 +48,9 @@ function connect(url, user, password, authSource) {
                             user: user,
                             password: password
                         },
-                        authSource: authSource
+                        authSource: authSource,
+                        useNewUrlParser: true,
+                        useUnifiedTopology: true
                     })];
                 case 1:
                     result = _a.sent();

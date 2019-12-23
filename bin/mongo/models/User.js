@@ -17,7 +17,7 @@ var UserSchema = new mongoose_1.Schema({
             type: mongoose_1.Schema.Types.ObjectId,
             ref: 'Activity'
         }],
-    strava_id: String,
+    strava_id: Number,
     strava_session: {
         type: mongoose_1.Schema.Types.ObjectId,
         ref: 'StravaSession'
