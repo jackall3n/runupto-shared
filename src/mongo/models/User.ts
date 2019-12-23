@@ -16,7 +16,7 @@ const UserSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'Activity'
   }],
-  strava_id: String,
+  strava_id: Number,
   strava_session: {
     type: Schema.Types.ObjectId,
     ref: 'StravaSession'
